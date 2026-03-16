@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 import joblib
-import sklearn 
+
 
 @st.cache_resource
 def load_model():
