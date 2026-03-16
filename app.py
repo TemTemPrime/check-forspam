@@ -7,6 +7,7 @@ import joblib
 def load_model():
     model = joblib.load("email_spam model.pkl")  
     return model
+model = load_model()
 st.title("email spam prediciton")
 st.write("Insert email below")
 
