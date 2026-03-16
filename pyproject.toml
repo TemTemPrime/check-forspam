@@ -1,0 +1,10 @@
+[project]
+name = "email-spam"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "joblib>=1.5.3",
+    "streamlit>=1.55.0",
+]
