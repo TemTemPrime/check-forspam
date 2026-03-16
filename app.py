@@ -5,7 +5,7 @@ import joblib
 
 @st.cache_resource
 def load_model():
-    model = joblib.load("email_spam model_pkl")  
+    model = joblib.load("email_spam_model_pkl")  
     return model
 model = load_model()
 st.title("email spam prediciton")
